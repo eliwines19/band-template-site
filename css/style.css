@@ -1,10 +1,14 @@
+/* general styling */
 body {
     margin: 0;
 }
 
-/* #hero {
-} */
+i {
+    color: rgb(117, 117, 117);
+}
+/* end general styling */
 
+/* navbar section\ */
 #navbar-container {
     display: flex;
     justify-content: stretch;
@@ -32,7 +36,9 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+/* end navbar section */
 
+/* slideshow section */
 .slideshow-image {
     text-align: center;
     height: 500pt;
@@ -69,7 +75,9 @@ body {
     background-image: url("../images/concert3.jpg");
     display: none;
 }
+/* end slideshow section */
 
+/* band info section */
 #band-section {
     text-align: center;
     margin: 50pt 0;
@@ -109,3 +117,104 @@ body {
 #member3-image {
     background-image: url("../images/member3.jpg");
 }
+/* end band info section */
+
+/* tour section */
+#tour-section {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#tour-section h2 {
+    text-transform: uppercase;
+}
+
+#tour-content {
+    margin: 0 200pt;
+    text-align: center;
+}
+
+#months-list {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+#months-list li {
+    color: rgb(0, 0, 0);
+    padding: 5pt 0 5pt 5pt;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1pt solid rgb(126, 126, 126);
+}
+
+.sold-out {
+    margin-left: 10pt;
+    text-transform: uppercase;
+    background-color: rgb(255, 35, 35);
+    color: rgb(255, 255, 255);
+    padding: 2pt;
+    text-align: center;
+}
+
+.tickets-left {
+    margin-left: 10pt;
+    background-color: black;
+    border-radius: 15pt;
+    color: rgb(255, 255, 255);
+    padding: 3pt;
+}
+
+#venues {
+    display: flex;
+    justify-content: space-between;
+}
+
+.venue-image {
+    height: 150pt;
+    width: 180pt;
+    background-size: cover;
+}
+
+#venue-image1 {
+    background-image: url("../images/austin.jpg");
+}
+
+#venue-image2 {
+    background-image: url("../images/raleigh.jpg");
+}
+
+#venue-image3 {
+    background-image: url("../images/nyc.jpg");
+}
+
+.venue {
+    width: 180pt;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.venue h4 {
+    margin: 0 0 5pt 0;
+}
+
+.venue-info {
+    text-align: left;
+    padding: 10pt 10pt;
+}
+
+.venue-info p {
+    font-weight: bold;
+}
+
+.ticket-btn {
+    border: none;
+    padding: 10pt;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.ticket-btn:hover {
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+/* end tour section */
