@@ -219,3 +219,79 @@ i {
     cursor: pointer;
 }
 /* end tour section */
+
+/* contact section */
+#contact-section {
+    padding: 50pt 0;
+    text-align: center;
+}
+
+#contact-content {
+    margin: 20pt 200pt;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-info {
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+}
+
+#contact-info li {
+    padding: 5pt 0;
+}
+
+#contact-info span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#contact-form {
+    text-align: left;
+    border-radius: 0;
+}
+
+#contact-form input {
+    border: solid 1pt rgb(128, 128, 128);
+    padding: 10pt;
+    margin-bottom: 5pt;
+}
+
+#contact-message {
+    width: 100%;
+}
+
+#contact-submit {
+    padding: 10pt;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+#contact-submit:hover {
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+/* end contact section */
+
+/* bottom image */
+#bottom-image {
+    background: url("../images/stage.jpg");
+    background-size: cover;
+    height: 500pt;
+    width: auto;
+}
+/* end bottom image */
+
+/* footer */
+footer {
+    padding: 20pt 0;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
+/* end footer */
